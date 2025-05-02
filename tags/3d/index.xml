@@ -1,26 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>3D on </title>
-    <link>https://cat-yyy.github.io/Portfolio/tags/3d/</link>
-    <description>Recent content in 3D on </description>
-    <generator>Hugo</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cat-yyy.github.io/Portfolio/tags/3d/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>MAZE LANNER</title>
-      <link>https://cat-yyy.github.io/Portfolio/blog/maze_game_post/</link>
-      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://cat-yyy.github.io/Portfolio/blog/maze_game_post/</guid>
-      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;3D迷路探索ゲームです。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ジャンル&lt;/strong&gt;：3D迷路ゲーム&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;制作期間&lt;/strong&gt;：2025年1月〜3月（約3ヶ月）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;使用技術&#34;&gt;使用技術&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity / C#&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;スクリーンショット&#34;&gt;スクリーンショット&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/your-game-screenshot1.jpg&#34; alt=&#34;ゲーム画面&#34;&gt;&#xA;&lt;img src=&#34;images/tn.png&#34; alt=&#34;バトルシーン&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;プレイリンク--ダウンロード&#34;&gt;プレイリンク / ダウンロード&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;itch.io: &lt;a href=&#34;https://yourname.itch.io/your-game&#34;&gt;https://yourname.itch.io/your-game&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/yourname/your-game&#34;&gt;https://github.com/yourname/your-game&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;工夫した点学び&#34;&gt;工夫した点・学び&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2Dのマップデータをもとに、Unityの標準ライブラリに依存しない独自の3D制御仕様を実装しました。&lt;/li&gt;&#xA;&lt;li&gt;迷路の生成にはスタック構造を用いた深さ優先探索アルゴリズムを使い、大規模かつランダムな迷路を高速に構築できるよう工夫しました。&lt;/li&gt;&#xA;&lt;li&gt;エネミーの行動ロジックには幅優先探索アルゴリズムを用いて、効率的な追跡行動を実現しました。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>The Game(仮)</title>
-      <link>https://cat-yyy.github.io/Portfolio/blog/the-game/</link>
-      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://cat-yyy.github.io/Portfolio/blog/the-game/</guid>
-      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;このゲームは、ヴァンサバライクの3Dアクションゲームです。Unityでチーム開発し、2ヶ月の制作期間を経て完成させました。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ジャンル&lt;/strong&gt;：バンサバ風3Dアクション&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;制作期間&lt;/strong&gt;：2025年1月〜2月（約2ヶ月）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;担当&lt;/strong&gt;：プログラミング（シーン制御・エネミー制御）、ステージ制作&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;使用技術&#34;&gt;使用技術&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity / C#&lt;/li&gt;&#xA;&lt;li&gt;BitBucket（チーム開発）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;スクリーンショット&#34;&gt;スクリーンショット&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/your-game-screenshot1.jpg&#34; alt=&#34;ゲーム画面&#34;&gt;&#xA;&lt;img src=&#34;activitydiagram.png&#34; alt=&#34;アクティビティ図&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;プレイリンク--ダウンロード&#34;&gt;プレイリンク / ダウンロード&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;itch.io: &lt;a href=&#34;https://yourname.itch.io/your-game&#34;&gt;https://yourname.itch.io/your-game&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/yourname/your-game&#34;&gt;https://github.com/yourname/your-game&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;工夫した点学び&#34;&gt;工夫した点・学び&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;他の担当者と連携しやすいよう、モジュール構造をシンプルかつ明確に設計しました。&lt;/li&gt;&#xA;&lt;li&gt;チームでのGit運用を通して、プルリク・レビューの流れを経験しました。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>3D on</title><link>https://cat-yyy.github.io/Portfolio/tags/3d/</link><description>Recent content in 3D on</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cat-yyy.github.io/Portfolio/tags/3d/index.xml" rel="self" type="application/rss+xml"/><item><title>MAZE LANNER</title><link>https://cat-yyy.github.io/Portfolio/blog/maze_game_post/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://cat-yyy.github.io/Portfolio/blog/maze_game_post/</guid><description>&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>3D迷路探索ゲームです。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ジャンル&lt;/strong>：3D迷路ゲーム&lt;/li>
+&lt;li>&lt;strong>制作期間&lt;/strong>：2025年1月〜3月（約3ヶ月）&lt;/li>
+&lt;/ul>
+&lt;h2 id="使用技術">使用技術&lt;/h2>
+&lt;ul>
+&lt;li>Unity / C#&lt;/li>
+&lt;/ul>
+&lt;h2 id="スクリーンショット">スクリーンショット&lt;/h2>
+&lt;p>&lt;img src="images/your-game-screenshot1.jpg" alt="ゲーム画面">
+&lt;img src="images/tn.png" alt="バトルシーン">&lt;/p>
+&lt;h2 id="プレイリンク--ダウンロード">プレイリンク / ダウンロード&lt;/h2>
+&lt;ul>
+&lt;li>itch.io: &lt;a href="https://yourname.itch.io/your-game">https://yourname.itch.io/your-game&lt;/a>&lt;/li>
+&lt;li>GitHub: &lt;a href="https://github.com/yourname/your-game">https://github.com/yourname/your-game&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="工夫した点学び">工夫した点・学び&lt;/h2>
+&lt;ul>
+&lt;li>2Dのマップデータをもとに、Unityの標準ライブラリに依存しない独自の3D制御仕様を実装しました。&lt;/li>
+&lt;li>迷路の生成にはスタック構造を用いた深さ優先探索アルゴリズムを使い、大規模かつランダムな迷路を高速に構築できるよう工夫しました。&lt;/li>
+&lt;li>エネミーの行動ロジックには幅優先探索アルゴリズムを用いて、効率的な追跡行動を実現しました。&lt;/li>
+&lt;/ul></description></item><item><title>The Game(仮)</title><link>https://cat-yyy.github.io/Portfolio/blog/the-game/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://cat-yyy.github.io/Portfolio/blog/the-game/</guid><description>&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>このゲームは、ヴァンサバライクの3Dアクションゲームです。Unityでチーム開発し、2ヶ月の制作期間を経て完成させました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ジャンル&lt;/strong>：バンサバ風3Dアクション&lt;/li>
+&lt;li>&lt;strong>制作期間&lt;/strong>：2025年1月〜2月（約2ヶ月）&lt;/li>
+&lt;li>&lt;strong>担当&lt;/strong>：プログラミング（シーン制御・エネミー制御）、ステージ制作&lt;/li>
+&lt;/ul>
+&lt;h2 id="使用技術">使用技術&lt;/h2>
+&lt;ul>
+&lt;li>Unity / C#&lt;/li>
+&lt;li>BitBucket（チーム開発）&lt;/li>
+&lt;/ul>
+&lt;h2 id="スクリーンショット">スクリーンショット&lt;/h2>
+&lt;p>&lt;img src="images/your-game-screenshot1.jpg" alt="ゲーム画面">
+&lt;img src="activitydiagram.png" alt="アクティビティ図">&lt;/p>
+&lt;h2 id="プレイリンク--ダウンロード">プレイリンク / ダウンロード&lt;/h2>
+&lt;ul>
+&lt;li>itch.io: &lt;a href="https://yourname.itch.io/your-game">https://yourname.itch.io/your-game&lt;/a>&lt;/li>
+&lt;li>GitHub: &lt;a href="https://github.com/yourname/your-game">https://github.com/yourname/your-game&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="工夫した点学び">工夫した点・学び&lt;/h2>
+&lt;ul>
+&lt;li>他の担当者と連携しやすいよう、モジュール構造をシンプルかつ明確に設計しました。&lt;/li>
+&lt;li>チームでのGit運用を通して、プルリク・レビューの流れを経験しました。&lt;/li>
+&lt;/ul></description></item></channel></rss>

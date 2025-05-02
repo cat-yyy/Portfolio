@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on</title><link>https://cat-yyy.github.io/Portfolio/categories/</link><description>Recent content in Categories on</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cat-yyy.github.io/Portfolio/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>作品紹介</title><link>https://cat-yyy.github.io/Portfolio/categories/%E4%BD%9C%E5%93%81%E7%B4%B9%E4%BB%8B/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://cat-yyy.github.io/Portfolio/categories/%E4%BD%9C%E5%93%81%E7%B4%B9%E4%BB%8B/</guid><description/></item><item><title>Syntax</title><link>https://cat-yyy.github.io/Portfolio/categories/syntax/</link><pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate><guid>https://cat-yyy.github.io/Portfolio/categories/syntax/</guid><description/></item><item><title>Themes</title><link>https://cat-yyy.github.io/Portfolio/categories/themes/</link><pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate><guid>https://cat-yyy.github.io/Portfolio/categories/themes/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on </title>
+    <link>https://cat-yyy.github.io/Portfolio/categories/</link>
+    <description>Recent content in Categories on </description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cat-yyy.github.io/Portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>作品紹介</title>
+      <link>https://cat-yyy.github.io/Portfolio/categories/%E4%BD%9C%E5%93%81%E7%B4%B9%E4%BB%8B/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://cat-yyy.github.io/Portfolio/categories/%E4%BD%9C%E5%93%81%E7%B4%B9%E4%BB%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Syntax</title>
+      <link>https://cat-yyy.github.io/Portfolio/categories/syntax/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://cat-yyy.github.io/Portfolio/categories/syntax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Themes</title>
+      <link>https://cat-yyy.github.io/Portfolio/categories/themes/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://cat-yyy.github.io/Portfolio/categories/themes/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

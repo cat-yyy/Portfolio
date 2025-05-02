@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>アクション on </title>
-    <link>http://localhost:1313/Portfolio/tags/%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+    <link>https://cat-yyy.github.io/Portfolio/tags/%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</link>
     <description>Recent content in アクション on </description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/Portfolio/tags/%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cat-yyy.github.io/Portfolio/tags/%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Game(仮)</title>
-      <link>http://localhost:1313/Portfolio/blog/the_game_post/</link>
+      <link>https://cat-yyy.github.io/Portfolio/blog/the_game_post/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Portfolio/blog/the_game_post/</guid>
+      <guid>https://cat-yyy.github.io/Portfolio/blog/the_game_post/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;このゲームは、ヴァンサバライクの3Dアクションゲームです。Unityでチーム開発し、2ヶ月の制作期間を経て完成させました。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ジャンル&lt;/strong&gt;：バンサバ風3Dアクション&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;制作期間&lt;/strong&gt;：2025年1月〜2月（約2ヶ月）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;担当&lt;/strong&gt;：プログラミング（シーン制御・エネミー制御）、ステージ制作&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;使用技術&#34;&gt;使用技術&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity / C#&lt;/li&gt;&#xA;&lt;li&gt;BitBucket（チーム開発）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;スクリーンショット&#34;&gt;スクリーンショット&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/your-game-screenshot1.jpg&#34; alt=&#34;ゲーム画面&#34;&gt;&#xA;&lt;img src=&#34;../../images/activitydiagram.png&#34; alt=&#34;アクティビティ図&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;プレイリンク--ダウンロード&#34;&gt;プレイリンク / ダウンロード&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;itch.io: &lt;a href=&#34;https://yourname.itch.io/your-game&#34;&gt;https://yourname.itch.io/your-game&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/yourname/your-game&#34;&gt;https://github.com/yourname/your-game&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;工夫した点学び&#34;&gt;工夫した点・学び&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;他の担当者と連携しやすいよう、モジュール構造をシンプルかつ明確に設計しました。&lt;/li&gt;&#xA;&lt;li&gt;チームでのGit運用を通して、プルリク・レビューの流れを経験しました。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

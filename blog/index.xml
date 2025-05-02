@@ -6,14 +6,21 @@
     <description>Recent content in aafu theme on </description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 01 May 2025 17:49:55 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-yyy.github.io/Portfolio/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Second Post</title>
-      <link>https://cat-yyy.github.io/Portfolio/blog/my-second-post/</link>
-      <pubDate>Thu, 01 May 2025 17:49:55 +0900</pubDate>
-      <guid>https://cat-yyy.github.io/Portfolio/blog/my-second-post/</guid>
-      <description>&lt;p&gt;second&lt;/p&gt;</description>
+      <title>MAZE LANNER</title>
+      <link>https://cat-yyy.github.io/Portfolio/blog/maze_game_post/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://cat-yyy.github.io/Portfolio/blog/maze_game_post/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;3D迷路探索ゲームです。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ジャンル&lt;/strong&gt;：3D迷路ゲーム&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;制作期間&lt;/strong&gt;：2025年1月〜3月（約3ヶ月）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;使用技術&#34;&gt;使用技術&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity / C#&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;スクリーンショット&#34;&gt;スクリーンショット&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/your-game-screenshot1.jpg&#34; alt=&#34;ゲーム画面&#34;&gt;&#xA;&lt;img src=&#34;images/your-game-screenshot2.jpg&#34; alt=&#34;バトルシーン&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;プレイリンク--ダウンロード&#34;&gt;プレイリンク / ダウンロード&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;itch.io: &lt;a href=&#34;https://yourname.itch.io/your-game&#34;&gt;https://yourname.itch.io/your-game&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/yourname/your-game&#34;&gt;https://github.com/yourname/your-game&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;工夫した点学び&#34;&gt;工夫した点・学び&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2Dのマップデータをもとに、Unityの標準ライブラリに依存しない独自の3D制御仕様を実装しました。&lt;/li&gt;&#xA;&lt;li&gt;迷路の生成にはスタック構造を用いた深さ優先探索アルゴリズムを使い、大規模かつランダムな迷路を高速に構築できるよう工夫しました。&lt;/li&gt;&#xA;&lt;li&gt;エネミーの行動ロジックには幅優先探索アルゴリズムを用いて、効率的な追跡行動を実現しました。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>The Game(仮)</title>
+      <link>https://cat-yyy.github.io/Portfolio/blog/god_game_post/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://cat-yyy.github.io/Portfolio/blog/god_game_post/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;このゲームは、ヴァンサバライクの3Dアクションゲームです。Unityでチーム開発し、2ヶ月の制作期間を経て完成させました。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ジャンル&lt;/strong&gt;：バンサバ風3Dアクション&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;制作期間&lt;/strong&gt;：2025年1月〜2月（約2ヶ月）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;担当&lt;/strong&gt;：プログラミング（シーン制御・エネミー制御）、ステージ制作&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;使用技術&#34;&gt;使用技術&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity / C#&lt;/li&gt;&#xA;&lt;li&gt;BitBucket（チーム開発）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;スクリーンショット&#34;&gt;スクリーンショット&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/your-game-screenshot1.jpg&#34; alt=&#34;ゲーム画面&#34;&gt;&#xA;&lt;img src=&#34;images/your-game-screenshot2.jpg&#34; alt=&#34;バトルシーン&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;プレイリンク--ダウンロード&#34;&gt;プレイリンク / ダウンロード&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;itch.io: &lt;a href=&#34;https://yourname.itch.io/your-game&#34;&gt;https://yourname.itch.io/your-game&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/yourname/your-game&#34;&gt;https://github.com/yourname/your-game&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;工夫した点学び&#34;&gt;工夫した点・学び&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;他の担当者と連携しやすいよう、モジュール構造をシンプルかつ明確に設計しました。&lt;/li&gt;&#xA;&lt;li&gt;チームでのGit運用を通して、プルリク・レビューの流れを経験しました。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Demo Page</title>
@@ -21,20 +28,6 @@
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://cat-yyy.github.io/Portfolio/blog/markdown_syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>luctus enim ultricies auctor pulvinar nam etiam</title>
-      <link>https://cat-yyy.github.io/Portfolio/blog/post_3/</link>
-      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://cat-yyy.github.io/Portfolio/blog/post_3/</guid>
-      <description>&lt;h2 id=&#34;donec-lacinia-eleifend-sem-a&#34;&gt;donec lacinia eleifend sem a&lt;/h2&gt;&#xA;&lt;p&gt;Pulvinar tempor ultrices amet praesent aliquet non magnis euismod elit venenatis. Aliqua consequat tristique erat nulla sit risus aliqua posuere. Potenti natoque augue proin accimsan risus scelerisque id integer curabitur mattis amet quisque. Aliquet porta sit sapien natoque sed fringilla, madssa suspendisse vivamus placerat sociis condimentum ridiculus. Natoque egestas non lectus pellentesque nunc mattis eu ridiculus pretium maecenas ligula. Gravida facilisis sem mollis sagittis aliquet ornare bibendum, leo nec morbi tortor diam maecenas tempor.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>luctus enim ultricies auctor pulvinar nam etiam</title>
-      <link>https://cat-yyy.github.io/Portfolio/blog/post_4/</link>
-      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://cat-yyy.github.io/Portfolio/blog/post_4/</guid>
-      <description>&lt;h2 id=&#34;donec-lacinia-eleifend-sem-a&#34;&gt;donec lacinia eleifend sem a&lt;/h2&gt;&#xA;&lt;p&gt;テスト&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

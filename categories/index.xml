@@ -6,8 +6,15 @@
     <description>Recent content in Categories on </description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-yyy.github.io/Portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>作品紹介</title>
+      <link>https://cat-yyy.github.io/Portfolio/categories/%E4%BD%9C%E5%93%81%E7%B4%B9%E4%BB%8B/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://cat-yyy.github.io/Portfolio/categories/%E4%BD%9C%E5%93%81%E7%B4%B9%E4%BB%8B/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Syntax</title>
       <link>https://cat-yyy.github.io/Portfolio/categories/syntax/</link>
@@ -20,20 +27,6 @@
       <link>https://cat-yyy.github.io/Portfolio/categories/themes/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://cat-yyy.github.io/Portfolio/categories/themes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Diam Aliqua</title>
-      <link>https://cat-yyy.github.io/Portfolio/categories/diam-aliqua/</link>
-      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://cat-yyy.github.io/Portfolio/categories/diam-aliqua/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fringilla</title>
-      <link>https://cat-yyy.github.io/Portfolio/categories/fringilla/</link>
-      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://cat-yyy.github.io/Portfolio/categories/fringilla/</guid>
       <description></description>
     </item>
   </channel>

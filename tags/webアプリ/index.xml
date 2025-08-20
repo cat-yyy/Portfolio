@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webアプリ on </title>
+    <link>https://cat-yyy.github.io/Portfolio/tags/web%E3%82%A2%E3%83%97%E3%83%AA/</link>
+    <description>Recent content in Webアプリ on </description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cat-yyy.github.io/Portfolio/tags/web%E3%82%A2%E3%83%97%E3%83%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LINE×Gemini ボットWebアプリ</title>
+      <link>https://cat-yyy.github.io/Portfolio/blog/line_gemini_post/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://cat-yyy.github.io/Portfolio/blog/line_gemini_post/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;LINE公式アプリとGoogleのGeminiを連携させたボットチャットアプリです。&lt;br&gt;&#xA;ユーザーはLINE上で、自分好みにカスタマイズしたGeminiとリアルタイムで会話できます。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ジャンル&lt;/strong&gt;：Webアプリ&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;制作期間&lt;/strong&gt;：2025年8月（約3日）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;使用技術&#34;&gt;使用技術&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;JavaScript&lt;/li&gt;&#xA;&lt;li&gt;LINE Messaging API&lt;/li&gt;&#xA;&lt;li&gt;Gemini API&lt;/li&gt;&#xA;&lt;li&gt;Google Apps Script（Webサーバーとして使用）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;スクリーンショット&#34;&gt;スクリーンショット&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cat-yyy.github.io/Portfolio/images/LINE_screenshot.jpg&#34; alt=&#34;LINのトーク画面&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;githubリンク&#34;&gt;GitHubリンク&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/cat-yyy/line-gemini&#34;&gt;https://github.com/cat-yyy/line-gemini&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;工夫した点学び&#34;&gt;工夫した点・学び&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Webサーバーは Google Apps Scriptを活用しました。&lt;/li&gt;&#xA;&lt;li&gt;LINEのWebhookとGemini APIを組み合わせ、擬似的に非同期処理で複数メッセージをキュー管理できるように工夫しました。&lt;/li&gt;&#xA;&lt;li&gt;Gemini APIのカスタマイズ（キャラクター・口調・文字数・絵文字数など）により、ユーザー体験を柔軟に調整可能。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;課題点&#34;&gt;課題点&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;現状、Gemini APIをそのまま利用しているため、ユーザーとのトーク履歴は保存されず、直前の会話内容を記憶できません。&lt;/li&gt;&#xA;&lt;li&gt;改善案として、ユーザーごとの会話履歴や状態情報をトークンとして保存し、Geminiに送信することで、より自然で連続性のある会話体験を実現できる余地があります。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -136,96 +136,65 @@
 
     
     <main class="grow">
-<div class="prose dark:prose-invert max-w-none">
-  <h1 class="standard ">
-    Categories</h1>
-  
-  <div class="">
-    <div
-      class="rounded-sm hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 active"
-    >
-      <i
-        onclick="expandAccordion(this)"
-        class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded-sm text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"
-      ></i>
-      <a href="/Portfolio/categories/%E4%BD%9C%E5%93%81%E7%B4%B9%E4%BB%8B/"
-        ><h2 class="accordion m-0">作品紹介</h2></a
-      >
-    </div>
-    <div
-      id="panel-item-0"
-      class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark"
-    >
-      <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">August 20, 2025</p>
-<p class="mt-1 mb-0 text-sm">Reading Time: 0 minutes</p>
- 
-
-
-
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<div class="mb-3">
+  <h1 class="top-h1">LINE×Gemini ボットWebアプリ</h1>
+  <p class="mb-1">August 20, 2025</p>
+  <p>&mdash;</p>
+</div>
+<div class="content">
+  <h2 id="概要">概要</h2>
+<p>LINE公式アプリとGoogleのGeminiを連携させたボットチャットアプリです。<br>
+ユーザーはLINE上で、自分好みにカスタマイズしたGeminiとリアルタイムで会話できます。</p>
+<ul>
+<li><strong>ジャンル</strong>：Webアプリ</li>
+<li><strong>制作期間</strong>：2025年8月（約3日）</li>
+</ul>
+<h2 id="使用技術">使用技術</h2>
+<ul>
+<li>JavaScript</li>
+<li>LINE Messaging API</li>
+<li>Gemini API</li>
+<li>Google Apps Script（Webサーバーとして使用）</li>
+</ul>
+<h2 id="スクリーンショット">スクリーンショット</h2>
+<p><img src="/Portfolio/images/LINE_screenshot.jpg" alt="LINのトーク画面"></p>
+<h2 id="githubリンク">GitHubリンク</h2>
+<ul>
+<li>GitHub: <a href="https://github.com/cat-yyy/line-gemini">https://github.com/cat-yyy/line-gemini</a></li>
+</ul>
+<h2 id="工夫した点学び">工夫した点・学び</h2>
+<ul>
+<li>Webサーバーは Google Apps Scriptを活用しました。</li>
+<li>LINEのWebhookとGemini APIを組み合わせ、擬似的に非同期処理で複数メッセージをキュー管理できるように工夫しました。</li>
+<li>Gemini APIのカスタマイズ（キャラクター・口調・文字数・絵文字数など）により、ユーザー体験を柔軟に調整可能。</li>
+</ul>
+<h2 id="課題点">課題点</h2>
+<ul>
+<li>現状、Gemini APIをそのまま利用しているため、ユーザーとのトーク履歴は保存されず、直前の会話内容を記憶できません。</li>
+<li>改善案として、ユーザーごとの会話履歴や状態情報をトークンとして保存し、Geminiに送信することで、より自然で連続性のある会話体験を実現できる余地があります。</li>
+</ul>
 
 </div>
-    </div>
-  </div>
-  
-  <div class="">
-    <div
-      class="rounded-sm hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 "
-    >
-      <i
-        onclick="expandAccordion(this)"
-        class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded-sm text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"
-      ></i>
-      <a href="/Portfolio/categories/syntax/"
-        ><h2 class="accordion m-0">Syntax</h2></a
-      >
-    </div>
-    <div
-      id="panel-item-1"
-      class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark"
-    >
-      <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">November 19, 2022</p>
-<p class="mt-1 mb-0 text-sm">Reading Time: 0 minutes</p>
- 
-
-
-
-
 </div>
-    </div>
-  </div>
-  
-  <div class="">
-    <div
-      class="rounded-sm hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 "
+<div class="flex flex-row justify-around my-2">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <a
+      href="/Portfolio/blog/maze_game_post/"
+      title="MAZE LANNER"
     >
-      <i
-        onclick="expandAccordion(this)"
-        class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded-sm text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"
-      ></i>
-      <a href="/Portfolio/categories/themes/"
-        ><h2 class="accordion m-0">Themes</h2></a
-      >
-    </div>
-    <div
-      id="panel-item-2"
-      class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark"
-    >
-      <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">November 19, 2022</p>
-<p class="mt-1 mb-0 text-sm">Reading Time: 0 minutes</p>
- 
-
-
-
-
+      <i class="nav-menu fas fa-chevron-circle-left"></i>
+    </a>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <i class="text-gray-300 dark:text-gray-600 fas fa-chevron-circle-right"></i>
+    
+  </h3>
 </div>
-    </div>
-  </div>
-  
-</div>
-<script src="/Portfolio/js/accordion.js"></script>
-<div class="my-6 flex justify-center pagination-links">
-  
-</div>
+
 
     </main>
     

@@ -136,113 +136,74 @@
 
     
     <main class="grow">
-<div class="prose dark:prose-invert max-w-none">
-  <h1 class="standard font-italic">
-    #Webアプリ</h1>
-  
-  <div class="">
-    <div
-      class="rounded-sm hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 active"
-    >
-      <i
-        onclick="expandAccordion(this)"
-        class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded-sm text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"
-      ></i>
-      <a href="/Portfolio/blog/line_gemini_post/"
-        ><h2 class="accordion m-0">LINE×Gemini ボットWebアプリ</h2></a
-      >
-    </div>
-    <div
-      id="panel-item-0"
-      class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark"
-    >
-      <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">August 20, 2025</p>
-<p class="mt-1 mb-0 text-sm">Reading Time: 1 minutes</p>
- 
-
-<p class="metadata-value mt-1 mb-0 text-sm taxa taxa-container-div list-categories">
-  Categories: 
-  <a
-    class="metadata-tags hover:no-underline"
-    href="/Portfolio/categories/%E4%BD%9C%E5%93%81%E7%B4%B9%E4%BB%8B"
-    title="categories"
-  >
-    #作品紹介</a>
-  
-</p>
-
-
-
-<p class="metadata-value mt-1 mb-0 text-sm taxa taxa-container-div list-tags">
-  Tags: 
-  <a
-    class="metadata-tags hover:no-underline"
-    href="/Portfolio/tags/web%E3%82%A2%E3%83%97%E3%83%AA"
-    title="tags"
-  >
-    #Webアプリ</a>
-  
-</p>
-
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<div class="mb-3">
+  <h1 class="top-h1">ヒートマップデータ可視化Webアプリ</h1>
+  <p class="mb-1">August 20, 2025</p>
+  <p>&mdash;</p>
+</div>
+<div class="content">
+  <h2 id="概要">概要</h2>
+<p>開発中の Android アプリから送信される GPS 情報やタイムスタンプを収集し、
+Railway 上の Web アプリサーバと MySQL データベースを利用して保存。
+そのデータを Web アプリ上で取得し、Google Maps JavaScript API を用いて ヒートマップ表示 するフルスタック Web アプリを構築しました。</p>
+<ul>
+<li><strong>ジャンル</strong>：Webアプリ</li>
+</ul>
+<h2 id="使用技術">使用技術</h2>
+<ul>
+<li>バックエンド: Python (FastAPI)</li>
+<li>フロントエンド: HTML, CSS, JavaScript</li>
+<li>データベース: MySQL</li>
+<li>インフラ: Railway (Web サーバ + DB サーバ)</li>
+<li>API: Google Maps JavaScript API</li>
+</ul>
+<h2 id="アプリケーションの機能と特徴">アプリケーションの機能と特徴</h2>
+<p>データ収集と処理:</p>
+<p>開発中のAndroidアプリから、特定の属性（例：ユーザーの活動タイプ、時間帯など）と紐づいたGPS情報（緯度・経度）とタイムスタンプをHTTPリクエスト経由で受信します。
+Pythonでこれらのリクエストを受け、Railway上のDBに保存します。</p>
+<p>ヒートマップの生成:
+フロントエンドからのリクエストに基づき、バックエンドがデータベースから関連データを取得します。
+取得したデータをGoogle Maps JavaScript APIが要求するJSONフォーマットに変換し、フロントエンドに送信します。
+JavaScriptがこのデータを受け取り、GoogleマップのHeatmapLayerを利用して、データの密度や属性に応じたヒートマップを動的に描画します。
+この機能により、データの集中している場所や傾向を一目で把握できます。</p>
+<p>フルスタック開発:
+DBの構築、バックエンド、フロントエンドの開発の全工程を一人で担当しました。</p>
+<h2 id="応用例">応用例</h2>
+<p>開発中の交通量調査アプリで、車両や人の属性に応じて地図上にデータの可視化を行う。
+画像認識のAPIを使用して、防犯カメラなどから得られる属性に応じたデータを地図上に可視化。</p>
+<h2 id="スクリーンショット">スクリーンショット</h2>
+<p><img src="/Portfolio/images/LINE_screenshot.jpg" alt="LINのトーク画面"></p>
+<h2 id="githubリンク">GitHubリンク</h2>
+<ul>
+<li>GitHub: <a href="https://github.com/cat-yyy/line-gemini">https://github.com/cat-yyy/line-gemini</a></li>
+</ul>
 
 </div>
-    </div>
-  </div>
-  
-  <div class="">
-    <div
-      class="rounded-sm hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 "
+</div>
+<div class="flex flex-row justify-around my-2">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <a
+      href="/Portfolio/blog/maze_game_post/"
+      title="MAZE LANNER"
     >
-      <i
-        onclick="expandAccordion(this)"
-        class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded-sm text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"
-      ></i>
-      <a href="/Portfolio/blog/heatmap_post/"
-        ><h2 class="accordion m-0">ヒートマップデータ可視化Webアプリ</h2></a
-      >
-    </div>
-    <div
-      id="panel-item-1"
-      class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark"
+      <i class="nav-menu fas fa-chevron-circle-left"></i>
+    </a>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <a
+      href="/Portfolio/blog/line_gemini_post/"
+      title="LINE×Gemini ボットWebアプリ"
     >
-      <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">August 20, 2025</p>
-<p class="mt-1 mb-0 text-sm">Reading Time: 1 minutes</p>
- 
-
-<p class="metadata-value mt-1 mb-0 text-sm taxa taxa-container-div list-categories">
-  Categories: 
-  <a
-    class="metadata-tags hover:no-underline"
-    href="/Portfolio/categories/%E4%BD%9C%E5%93%81%E7%B4%B9%E4%BB%8B"
-    title="categories"
-  >
-    #作品紹介</a>
-  
-</p>
-
-
-
-<p class="metadata-value mt-1 mb-0 text-sm taxa taxa-container-div list-tags">
-  Tags: 
-  <a
-    class="metadata-tags hover:no-underline"
-    href="/Portfolio/tags/web%E3%82%A2%E3%83%97%E3%83%AA"
-    title="tags"
-  >
-    #Webアプリ</a>
-  
-</p>
-
-
+      <i class="nav-menu fas fa-chevron-circle-right"></i>
+    </a>
+    
+  </h3>
 </div>
-    </div>
-  </div>
-  
-</div>
-<script src="/Portfolio/js/accordion.js"></script>
-<div class="my-6 flex justify-center pagination-links">
-  
-</div>
+
 
     </main>
     

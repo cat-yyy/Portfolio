@@ -7,7 +7,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 <meta name="description" content="Website title" />
 <meta name="author" content="Darshan Baral" />
-<meta name="generator" content="aafu theme by Darshan in Hugo 0.146.6" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.147.4" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/Portfolio/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/Portfolio/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/Portfolio/favicon-16x16.png">        <link rel="manifest" href="/Portfolio/site.webmanifest">        <link rel="mask-icon" href="/Portfolio/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/Portfolio/favicon.ico">
   <link
@@ -138,8 +138,8 @@
     <main class="grow">
 <div class="prose prose-stone dark:prose-invert max-w-none">
 <div class="mb-3">
-  <h1 class="top-h1">ヒートマップデータ可視化Webアプリ</h1>
-  <p class="mb-1">August 20, 2025</p>
+  <h1 class="top-h1">ヒートマップWebアプリ</h1>
+  <p class="mb-1">September 22, 2025</p>
   <p>&mdash;</p>
 </div>
 <div class="content">
@@ -147,9 +147,7 @@
 <p>開発中の Android アプリから送信される GPS 情報やタイムスタンプを収集し、
 Railway 上の Web アプリサーバと MySQL データベースを利用して保存。
 そのデータを Web アプリ上で取得し、Google Maps JavaScript API を用いて ヒートマップ表示 するフルスタック Web アプリを構築しました。</p>
-<ul>
-<li><strong>ジャンル</strong>：Webアプリ</li>
-</ul>
+<h2 id="アプリurl-httpheatmapwebapp-productionuprailwayapp">アプリURL <a href="http://heatmapwebapp-production.up.railway.app">http://heatmapwebapp-production.up.railway.app</a></h2>
 <h2 id="使用技術">使用技術</h2>
 <ul>
 <li>バックエンド: Python (FastAPI)</li>
@@ -159,24 +157,31 @@ Railway 上の Web アプリサーバと MySQL データベースを利用して
 <li>API: Google Maps JavaScript API</li>
 </ul>
 <h2 id="アプリケーションの機能と特徴">アプリケーションの機能と特徴</h2>
-<p>データ収集と処理:</p>
-<p>開発中のAndroidアプリから、特定の属性（例：ユーザーの活動タイプ、時間帯など）と紐づいたGPS情報（緯度・経度）とタイムスタンプをHTTPリクエスト経由で受信します。
+<ul>
+<li>
+<p>データ収集と処理:<br>
+開発中のAndroidアプリから、特定の属性（例：ユーザーの活動タイプ、時間帯など）と紐づいたGPS情報（緯度・経度）とタイムスタンプをHTTPリクエスト経由で受信します。
 Pythonでこれらのリクエストを受け、Railway上のDBに保存します。</p>
-<p>ヒートマップの生成:
-フロントエンドからのリクエストに基づき、バックエンドがデータベースから関連データを取得します。
-取得したデータをGoogle Maps JavaScript APIが要求するJSONフォーマットに変換し、フロントエンドに送信します。
-JavaScriptがこのデータを受け取り、GoogleマップのHeatmapLayerを利用して、データの密度や属性に応じたヒートマップを動的に描画します。
-この機能により、データの集中している場所や傾向を一目で把握できます。</p>
-<p>フルスタック開発:
+</li>
+<li>
+<p>データの可視化:<br>
+フロントエンドからのリクエストに基づき、バックエンドがデータベースから関連データを取得します。<br>
+取得したデータをGoogle Maps JavaScript APIが要求するJSONフォーマットに変換し、フロントエンドに送信します。<br>
+JavaScriptがこのデータを受け取り、データの密度や属性にヒートマップを動的に描画します。<br>
+この機能により、データの集中している場所や傾向を一目で把握できます。<br>
+また、各時間帯における属性の数などを一目で理解できるように、グラフで描画します。</p>
+</li>
+<li>
+<p>フルスタック開発:<br>
 DBの構築、バックエンド、フロントエンドの開発の全工程を一人で担当しました。</p>
+</li>
+</ul>
 <h2 id="応用例">応用例</h2>
-<p>開発中の交通量調査アプリで、車両や人の属性に応じて地図上にデータの可視化を行う。
+<p>開発中の交通量調査アプリで、車両や人の属性に応じたデータの可視化を行う。<br>
 画像認識のAPIを使用して、防犯カメラなどから得られる属性に応じたデータを地図上に可視化。</p>
-<h2 id="スクリーンショット">スクリーンショット</h2>
-<p><img src="/Portfolio/images/LINE_screenshot.jpg" alt="LINのトーク画面"></p>
 <h2 id="githubリンク">GitHubリンク</h2>
 <ul>
-<li>GitHub: <a href="https://github.com/cat-yyy/line-gemini">https://github.com/cat-yyy/line-gemini</a></li>
+<li>GitHub: <a href="https://github.com/cat-yyy/HeatmapWebApp">https://github.com/cat-yyy/HeatmapWebApp</a></li>
 </ul>
 
 </div>
@@ -185,8 +190,8 @@ DBの構築、バックエンド、フロントエンドの開発の全工程を
   <h3 class="mb-1 mt-1 text-left mr-4">
     
     <a
-      href="/Portfolio/blog/maze_game_post/"
-      title="MAZE LANNER"
+      href="/Portfolio/blog/line_gemini_post/"
+      title="LINE×Gemini ボットWebアプリ"
     >
       <i class="nav-menu fas fa-chevron-circle-left"></i>
     </a>
@@ -194,12 +199,7 @@ DBの構築、バックエンド、フロントエンドの開発の全工程を
   </h3>
   <h3 class="mb-1 mt-1 text-left ml-4">
     
-    <a
-      href="/Portfolio/blog/line_gemini_post/"
-      title="LINE×Gemini ボットWebアプリ"
-    >
-      <i class="nav-menu fas fa-chevron-circle-right"></i>
-    </a>
+    <i class="text-gray-300 dark:text-gray-600 fas fa-chevron-circle-right"></i>
     
   </h3>
 </div>
